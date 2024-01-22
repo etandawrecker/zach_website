@@ -1,11 +1,16 @@
+// index.js
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client'; // Import createRoot from react-dom
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// Create a root object using createRoot
+const root = document.getElementById('root');
+const rootElement = createRoot(root);
+
+// Render your app using the rootElement
+rootElement.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>

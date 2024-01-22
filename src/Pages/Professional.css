@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f8f8; /* Set the background color to a slight off-white for the entire body */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.professional-page {
+    min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+}
+
+.north-woods {
+    max-width: 50vw; /* Set the maximum width to 80% of the viewport width */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Ensure that it behaves as a block element */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+}
+
+.north-woods:hover {
+    transform: scale(1.05); /* Increase the scale factor for scaling up */
+    transition: transform 0.3s ease-in-out; /* Adjust the easing function for a smooth transition */
+}
+
+.north-woods:not(:hover) {
+    transform: scale(1); /* Return to the original size */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling up and down */
+  }
+
+.north-woods-content {
+    text-align: center;
+}
+ 
+.north-woods-content h1 {
+    margin-top: 25vh;
+    font-size: 20px;
+}

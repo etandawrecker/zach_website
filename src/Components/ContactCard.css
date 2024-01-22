@@ -1,0 +1,39 @@
+/* ContactCard.css */
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease-in-out; /* Add transition for smooth hover effect */
+  }
+  
+  /* Add hover styles to double the size */
+  .contact-card:hover {
+    transform: scale(1.2); /* Double the size on hover */
+  }
+  
+  .header {
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .position {
+    color: #888;
+  }
+  
+  .details {
+    margin-top: 15px;
+  }
+  
+  .email,
+  .phone {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
