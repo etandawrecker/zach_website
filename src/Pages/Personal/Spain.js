@@ -53,7 +53,7 @@ const Spain = () => {
         },
         {
             title1: 'The Power of Silence',
-            image1: 'Spring in Spain Photos/The Power of Silence.png', // Adjust the path based on your directory structure
+            image1: 'Spring in Spain Photos/The Power of Silence.jpg', // Adjust the path based on your directory structure
             alt1: 'Still photo of a home in Lake Como',
             description1: "He wondered: what happens when there's no one to talk to but himself?",
             title2: 'Lone Sailor',
