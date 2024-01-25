@@ -1,13 +1,17 @@
 /* Navbar.css */
 .navbar {
+    position: sticky;
+    top: 0;
     color: black; /* Set the text color to black */
+    background-color: #f5f3f3;
     padding-left: 15px;
     padding-right: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1vh;
     text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+    z-index: 1000;
   }
   
 .logo {
