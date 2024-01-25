@@ -41,4 +41,34 @@
     text-decoration: none;
     color: rgb(14, 14, 187);
   }
+
+@media screen and (max-width: 767px){
+
+    .header {
+      font-size: 14px;
+    }
+
+    .contact-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      padding: 15px;
+      width: 50vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+  .header {
+    font-size: 12px;
+  }
+
+  .contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    width: 50vw;
+  }
+}
   
