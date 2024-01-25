@@ -35,3 +35,20 @@ body {
     margin-top: 25vh;
     font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .north-woods-content h1 {
+        margin-top: 25vh;
+        font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    
+    .north-woods-content h1 {
+        margin-top: 25vh;
+        font-size: 14px;
+    }
+
+}

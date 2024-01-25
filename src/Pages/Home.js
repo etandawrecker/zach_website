@@ -10,9 +10,9 @@ const Home = () => {
     <div className='page'>
       <Navbar />
       <div className="Home">
-        <p className='spring-spain-title'>Spring In Spain</p>
+        <b><p className='spring-spain-title'>Spring In Spain</p></b>
         <Link to="/spain"><img src='Spring In Spain Photos/Awe.png' alt="Barcelona Bunkers" className='spring-title-photo'/></Link>
-        <p className='north-woods-title'>North Woods 2022</p>
+        <b><p className='north-woods-title'>North Woods 2022</p></b>
         <Link to="/northwoods"><img src='North Woods 2022 Photos/Cleanse.png' alt="Kids playing with sun shining down" className='north-woods-title-photo'/></Link>
       </div>
     </div>

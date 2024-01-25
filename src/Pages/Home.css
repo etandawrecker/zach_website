@@ -12,6 +12,7 @@ body {
 .spring-spain-title {
     font-style: italic;
     margin-top: 20vh;
+    
 }
 
 .Home {
@@ -60,4 +61,20 @@ body {
 .north-woods-title:not(:hover) {
     transform: scale(1); /* Return to the original size */
     transition: transform 0.3s ease-in-out; /* Smooth transition for scaling up and down */
+}
+
+@media screen and (max-width: 600px) {
+    
+    .spring-spain-title {
+        font-style: italic;
+        margin-top: 20vh;
+        font-size: 14px;
+    }
+
+    .north-woods-title {
+        margin-top: 3vh;
+        font-style: italic;
+        font-size: 14px;
+    }
+
 }

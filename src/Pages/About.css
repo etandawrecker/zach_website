@@ -15,3 +15,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
     margin-bottom: 5vh;
 }
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    line-height: 1.5; /* Set line height for better readability */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 10px; /* Adjust font size for smaller screens */
+    line-height: 1.5; /* Set line height for better readability */
+  }
+}

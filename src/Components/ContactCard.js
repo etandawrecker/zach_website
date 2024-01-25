@@ -12,6 +12,8 @@ const ContactCard = () => {
       <div className="details">
         <p className="email">zach.angerthal@gmail.com</p>
         <p className="phone">571-421-7597</p>
+        <p className='instagram'>Instagram: @zachangerthalphotography</p>
+        <p className='LinkedIn'><a href="www.linkedin.com/in/zach-angerthal-9b4854205">LinkedIn</a></p>
       </div>
     </div>
   );
