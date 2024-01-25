@@ -92,7 +92,11 @@
 }
 
 @media screen and (max-width: 400px) {
-    
+
+  .logo {
+    margin-left: 3px;
+    margin-right: 3vw;
+  }
 
   .nav-links li {
     margin-right: 3vw; /* Add space to the right of each link */
