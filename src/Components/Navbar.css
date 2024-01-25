@@ -4,10 +4,7 @@
     top: 0;
     color: black; /* Set the text color to black */
     background-color: #f5f3f3;
-    padding-left: 1.5vw;
-    padding-right: .5vw;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +39,9 @@
   
   .nav-links {
     list-style: none;
+    padding: 0;
     display: flex;
+
   }
   
   .nav-links li {
