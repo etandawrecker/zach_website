@@ -4,7 +4,7 @@
     top: 0;
     color: black; /* Set the text color to black */
     background-color: #f5f3f3;
-    padding-left: 18px;
+    padding-left: 1vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
