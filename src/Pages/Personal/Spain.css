@@ -10,7 +10,7 @@
 .spain-artist-statement-card {
     border-radius: 10px; /* Set the border-radius for rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
-    padding: 20px; /* Add padding for spacing inside the card */
+    padding: 15px; /* Add padding for spacing inside the card */
     background-color: #fafafa; /* Set the background color of the card */
     margin-bottom: 20px; /* Optional: Add margin to separate the card from other elements */
     text-align: center;
@@ -58,3 +58,29 @@
     margin: 0 10px; /* Adjust as needed for space between buttons */
 }
 
+@media screen and (max-width: 767px) {
+
+    .spain-artist-statement-card h2 {
+        font-size: 16px;
+    }
+
+    .spain-artist-statement-card p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .button-container button {
+        padding: 5px;
+        font-size: 12px;
+        margin: 0 10px; /* Adjust as needed for space between buttons */
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    
+    .button-container button {
+        padding: 5px;
+        font-size: 10px;
+        margin: 0 10px; /* Adjust as needed for space between buttons */
+    }
+}

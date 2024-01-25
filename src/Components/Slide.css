@@ -23,4 +23,22 @@
     margin-top: 5px; /* Add margin to separate the title/description from the image */
     font-size: 16px; /* Adjust font size as needed */
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .image-container p {
+      font-size: 14px;
+  }
+  }
   
+  @media screen and (max-width: 767px) {
+    .image-container p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .image-container p {
+      font-size: 10px;
+  }
+}
+
