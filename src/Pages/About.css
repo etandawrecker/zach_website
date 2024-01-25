@@ -42,6 +42,7 @@
 }
 
 @media screen and (max-width: 400px) {
+  
   p {
     font-size: 9px; /* Adjust font size for smaller screens */
     line-height: 1.5; /* Set line height for better readability */
