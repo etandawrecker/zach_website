@@ -91,3 +91,14 @@
 
 }
 
+@media screen and (max-width: 400px) {
+    
+
+  .nav-links li {
+    margin-right: 3vw; /* Add space to the right of each link */
+  }
+  .nav-links li a {
+    font-size: 10x; /* Adjust the font size for smaller screens */
+  }
+
+}
