@@ -10,7 +10,7 @@ const Personal = () => {
         <div className='personal-page'>
             <Navbar />
             <div className='spain-content'>
-                <h1>Spring In Spain</h1>
+                <h1>Spring in Spain</h1>
             <Link to="/spain">
                 <img src='Spring In Spain Photos/Awe.png' alt="Barcelona Bunkers" className='awe'/>
             </Link>

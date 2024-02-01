@@ -10,7 +10,7 @@ const Home = () => {
     <div className='page'>
       <Navbar />
       <div className="Home">
-        <b><p className='spring-spain-title'>Spring In Spain</p></b>
+        <b><p className='spring-spain-title'>Spring in Spain</p></b>
         <Link to="/spain"><img src='Spring In Spain Photos/Awe.png' alt="Barcelona Bunkers" className='spring-title-photo'/></Link>
         <b><p className='north-woods-title'>North Woods 2022</p></b>
         <Link to="/northwoods"><img src='North Woods 2022 Photos/Cleanse.png' alt="Kids playing with sun shining down" className='north-woods-title-photo'/></Link>

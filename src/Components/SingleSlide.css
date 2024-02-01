@@ -1,0 +1,46 @@
+/* Slide.css */
+.single-slide {
+    display: flex;
+    justify-content: center;
+    margin-top: -30vh;
+  }
+  
+  .single-slide-image {
+    margin: 10px; /* Add margin for spacing between image containers */
+    text-align: center;
+  }
+  
+  .single-slide-image img {
+    max-width: 30vw;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%; /* Set max-height to 100% of the container height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+  }
+  
+  .single-slide-image p {
+    margin-top: 5px; /* Add margin to separate the title/description from the image */
+    font-size: 16px; /* Adjust font size as needed */
+    font-style: italic;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .image-container p {
+      font-size: 14px;
+  }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .image-container p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .image-container p {
+      font-size: 10px;
+  }
+}
+
