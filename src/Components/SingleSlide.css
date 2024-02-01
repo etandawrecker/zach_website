@@ -11,7 +11,7 @@
   }
   
   .single-slide-image img {
-    max-width: 30vw;
+    max-width: 40vw;
     height: auto;
     object-fit: cover;
     display: block;
@@ -27,19 +27,19 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .image-container p {
+    .single-slide-image p {
       font-size: 14px;
   }
   }
   
   @media screen and (max-width: 767px) {
-    .image-container p {
+    .single-slide-image p {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 600px) {
-  .image-container p {
+  .single-slide-image p {
       font-size: 10px;
   }
 }
