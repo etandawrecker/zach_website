@@ -148,7 +148,7 @@ const Northwoods = () => {
         <div className='northwoods-page'>
             <Navbar />
             <div className='centered-container'>
-                <div className='artist-statement-card'>
+                <div className='northwoods-artist-statement-card'>
                     <h2>Artist Statement</h2>
                     <p>
                     In the summer of 2022, I had the pleasure of assuming the role as camp photographer at<br/> 
