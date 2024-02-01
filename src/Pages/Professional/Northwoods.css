@@ -15,11 +15,11 @@
     text-align: center;
 }
 
-.artist-statement-card p {
+.northwoods-artist-statement-card p {
   line-height: 1.5;
 }
 
-.artist-statement-card h2 {
+.northwoods-artist-statement-card h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -31,16 +31,16 @@
         margin-bottom: 1vh;
       }
 
-    .artist-statement-card {
+    .northwoods-artist-statement-card {
         padding: 15px;
     }
 
-    .artist-statement-card h2 {
+    .northwoods-artist-statement-card h2 {
         font-size: 16px;
         margin-bottom: 10px;
     }
 
-    .artist-statement-card p {
+    .northwoods-artist-statement-card p {
         font-size: 12px;
         line-height: 1.5;
     }
@@ -55,16 +55,16 @@
         margin-bottom: 1vh;
       }
 
-    .artist-statement-card {
+    .northwoods-artist-statement-card {
         padding: 10px;
     }
 
-    .artist-statement-card h2 {
+    .northwoods-artist-statement-card h2 {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
-    .artist-statement-card p {
+    .northwoods-artist-statement-card p {
         font-size: 9px;
         line-height: 1.5;
     }
