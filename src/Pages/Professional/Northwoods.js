@@ -16,14 +16,6 @@ const Northwoods = () => {
         setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
       };
 
-    const [showScrollTop, setShowScrollTop] = useState(false);
-
-    const handleScroll = () => {
-        // Show the scroll-to-top button when scrolling down, and hide it when at the top
-        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        setShowScrollTop(scrollTop > 100);
-    };
-
     const slides = [
         {
             title1: 'All for One',
@@ -151,10 +143,6 @@ const Northwoods = () => {
             alt1: 'A boy about to be lifted into the air while tubing',
         }
       ];
-
-    // Attach the scroll event listener to the window
-    // This will trigger the handleScroll function on scroll
-    window.addEventListener('scroll', handleScroll);
 
     return (
         <div className='northwoods-page'>
