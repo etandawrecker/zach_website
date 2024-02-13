@@ -8,6 +8,7 @@ const SingleSlide = (props) => {
       <div className="single-slide-image">
         <p className='titles'>{props.title1}</p>
         <img src={props.image1} alt={props.alt1}/>
+        <p className='description'>{props.description}</p>
       </div>
     </div>
   );

@@ -164,9 +164,9 @@ const Northwoods = () => {
             </div>
 
             <SingleSlideSlide 
-            title1={slides[currentSlide].title1}
-            image1={slides[currentSlide].image1}
-            alt1={slides[currentSlide].alt1}
+                title1={slides[currentSlide].title1}
+                image1={slides[currentSlide].image1}
+                alt1={slides[currentSlide].alt1}
             />
 
 
