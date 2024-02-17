@@ -9,6 +9,7 @@ import Professional from './Pages/Professional';
 import Northwoods from './Pages/Professional/Northwoods';
 import Personal from './Pages/Personal'
 import Spain from './Pages/Personal/Spain'
+import Rockies from './Pages/Personal/Rockies';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/professional" element={<Professional />} />
         <Route path="/northwoods" element={<Northwoods />} />
         <Route path="/spain" element={<Spain />} />
+        <Route path="/rockies" element={<Rockies/>} />
       </Routes>
     </Router>
   );

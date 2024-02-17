@@ -1,0 +1,72 @@
+/* Northwoods.css */
+.rockies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Center vertically within the viewport */
+    margin-top: -15vh;
+  }
+
+.rockies-artist-statement-card {
+    border-radius: 10px; /* Set the border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+    padding: 20px; /* Add padding for spacing inside the card */
+    background-color: #fafafa; /* Set the background color of the card */
+    text-align: center;
+}
+
+.rockies-artist-statement-card p {
+  line-height: 1.5;
+}
+
+.rockies-artist-statement-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px){
+
+    .rockies-container {
+        margin-top: -20vh;
+        margin-bottom: 1vh;
+      }
+
+    .rockies-artist-statement-card {
+        padding: 15px;
+    }
+
+    .rockies-artist-statement-card h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .rockies-artist-statement-card p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .rockies-container {
+        margin-top: -25vh;
+        margin-bottom: 1vh;
+      }
+
+    .rockies-artist-statement-card {
+        padding: 10px;
+    }
+
+    .rockies-artist-statement-card h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .rockies-artist-statement-card p {
+        font-size: 9px;
+        line-height: 1.5;
+    }
+    
+}

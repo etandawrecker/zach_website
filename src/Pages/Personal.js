@@ -15,6 +15,12 @@ const Personal = () => {
                 <img src='Spring In Spain Photos/Awe.png' alt="Barcelona Bunkers" className='awe'/>
             </Link>
             </div>
+            <div className='rockies-content'>
+                <h1>The Rockies</h1>
+            <Link to='/rockies'>  
+                <img src="The Rockies Final Photos/The Impossible.png" alt="Photo between trees looking to the mountains" className='impossible'/>
+            </Link>  
+            </div>
         </div>
       );
 
