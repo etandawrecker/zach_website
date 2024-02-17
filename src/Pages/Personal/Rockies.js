@@ -37,7 +37,7 @@ const Rockies = () => {
             alt1: 'Photo taken out a window into the forest'
         }, 
         {
-            title1: 'Nature_s Wrath',
+            title1: "Nature's Wrath",
             image1: 'The Rockies Final Photos/Nature_s Wrath.jpg',
             alt1: 'Dinosaur bones'
         }, 
