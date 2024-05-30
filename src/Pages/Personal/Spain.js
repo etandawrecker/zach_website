@@ -103,8 +103,12 @@ const Spain = () => {
                 />
 
                 <div className="button-container">
-                    <button onClick={handlePrevious} disabled={currentSlide === 0}>Previous</button>
-                    <button onClick={handleNext} disabled={currentSlide === slides.length - 1}>Next</button>
+                    <button onClick={handlePrevious} disabled={currentSlide === 0}>
+                        <img src="/Left Arrow.svg" alt="Previous" />
+                    </button>
+                    <button onClick={handleNext} disabled={currentSlide === slides.length - 1}>
+                        <img src="/Right Arrow.svg" alt="Next" />
+                    </button>
                 </div>
 
             </div>

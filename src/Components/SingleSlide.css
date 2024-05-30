@@ -17,7 +17,18 @@
     height: auto;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
-  }
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.single-slide-image img:hover {
+  transform: scale(1.21); /* Increase the scale factor for scaling up */
+  transition: transform 0.3s ease-in-out; /* Adjust the easing function for a smooth transition */
+}
+
+.single-slide-image img:not(:hover) {
+  transform: scale(1); /* Return to the original size */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling up and down */
+}
   
   .single-slide-image p {
     margin-top: 5px; /* Add margin to separate the title/description from the image */
@@ -25,6 +36,7 @@
     font-style: italic;
   }
 
+ 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .single-slide-image p {
       font-size: 14px;
