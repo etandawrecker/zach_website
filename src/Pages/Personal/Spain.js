@@ -40,7 +40,7 @@ const Spain = () => {
             title1: 'Letting Go',
             image1: 'Spring In Spain Photos/Letting Go.png', // Adjust the path based on your directory structure
             alt1: 'A photo of a mural in Lisbon, Portugal',
-            description: 'but he found that the ability to detach indefinitely is oftentimes harshly all or nothing.'
+            description: 'only to learn that the ability to detach indefinitely is oftentimes harshly all or nothing.'
         },
         {
             title1: 'The Absurdity of Time',
