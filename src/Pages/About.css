@@ -3,6 +3,7 @@
     margin-bottom: 16px; /* Add margin between paragraphs if desired */
     text-align: center; /* Align the text to the left within the centered container */
     line-height: 1.5;
+    width: 80vw;
   }
 
 .about-title {
