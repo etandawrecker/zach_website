@@ -4,6 +4,7 @@
     text-align: center; /* Align the text to the left within the centered container */
     line-height: 1.5;
     width: 80vw;
+    margin-left: 10vw;
   }
 
 .about-title {
