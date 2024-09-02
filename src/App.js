@@ -10,6 +10,7 @@ import Northwoods from './Pages/Professional/Northwoods';
 import Personal from './Pages/Personal'
 import Spain from './Pages/Personal/Spain'
 import Rockies from './Pages/Personal/Rockies';
+import Reinterpretation from './Pages/Personal/Reinterpretation';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/northwoods" element={<Northwoods />} />
         <Route path="/spain" element={<Spain />} />
         <Route path="/rockies" element={<Rockies/>} />
+        <Route path="/reinterpretation" element={<Reinterpretation />} />
       </Routes>
     </Router>
   );

@@ -10,6 +10,12 @@ const Home = () => {
     <div className='page'>
       <Navbar />
       <div className="Home">
+        <b><p className='spring-spain-title'>Reinterpretation</p></b>
+        <Link to="/reinterpretation">
+          <img src='Reinterpretation Photos/Letting Go.png' 
+          alt="A mural of children sitting on a tree branch and birds are flying over them" 
+          className='reinterpretation-title-photo'/>
+        </Link>
         <b><p className='spring-spain-title'>Spring in Spain</p></b>
         <Link to="/spain"><img src='Spring In Spain Photos/Awe.png' alt="Barcelona Bunkers" className='spring-title-photo'/></Link>
         <b><p className='north-woods-title'>North Woods 2022</p></b>
